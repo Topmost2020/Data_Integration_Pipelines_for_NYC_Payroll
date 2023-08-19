@@ -1,0 +1,26 @@
+{
+	"name": "syntitle",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Az_Synapse",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [
+			{
+				"name": "TitleCode",
+				"type": "varchar"
+			},
+			{
+				"name": "TitleDescription",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "NYC_Payroll_TITLE_MD_"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

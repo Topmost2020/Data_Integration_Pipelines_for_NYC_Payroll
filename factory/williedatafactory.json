@@ -1,0 +1,9 @@
+{
+	"name": "williedatafactory",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f829ca26-a4a2-4b41-9f14-76b26b938958",
+		"tenantId": "cd6683a6-aa85-46cf-aeea-92d4a1477009"
+	}
+}
